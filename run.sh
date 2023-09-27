@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 python main.py --scope starry_night --mode train --dataset_folder ./datasets/starry_night/ --image_name starry_night.png --results_folder ./results/ 

@@ -2,6 +2,7 @@ import torch
 import numpy as np
 import argparse
 import os
+# os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 import torchvision
 from SinDDM.functions import create_img_scales
 from SinDDM.models import SinDDMNet, MultiScaleGaussianDiffusion
